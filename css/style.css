@@ -21,3 +21,10 @@ a {
     text-align: center;
     background-color: #005891;
 }
+
+.hero {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto; /* 수평-중앙 배치 */
+    padding: 10px 0; /* 상, 하 50 픽셀 */
+}
