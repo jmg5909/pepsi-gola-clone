@@ -1,13 +1,13 @@
 * {
-    margin: 0; /* (안) 여백: 없음 */
-    padding: 0; /* (바깥) 여백 : 없음 */
+    margin: 0; /* (바깥) 여백: 없음 */
+    padding: 0; /* (안) 여백 : 없음 */
 }
 
 a {
-    color: #005891;
+    color: white;
     font-size: 14px;
     text-decoration: none;
-
+    margin: 10px;
 }
 
 .logo {
@@ -16,3 +16,8 @@ a {
     padding: 50px 0; /* 상, 하 50 픽셀 */
 }
 
+.menu{
+    padding: 20px 0; /* 상, 하 50 픽셀 */
+    text-align: center;
+    background-color: #005891;
+}
