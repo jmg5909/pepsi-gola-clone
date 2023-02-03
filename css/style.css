@@ -1,6 +1,8 @@
 * {
-    margin: 0; /* (바깥) 여백: 없음 */
-    padding: 0; /* (안) 여백 : 없음 */
+    margin: 0;
+    /* (바깥) 여백: 없음 */
+    padding: 0;
+    /* (안) 여백 : 없음 */
 }
 
 a {
@@ -12,12 +14,15 @@ a {
 
 .logo {
     width: 100px;
-    margin: 0 auto; /* 수평-중앙 배치 */
-    padding: 50px 0; /* 상, 하 50 픽셀 */
+    margin: 0 auto;
+    /* 수평-중앙 배치 */
+    padding: 50px 0;
+    /* 상, 하 50 픽셀 */
 }
 
-.menu{
-    padding: 20px 0; /* 상, 하 50 픽셀 */
+.menu {
+    padding: 20px 0;
+    /* 상, 하 50 픽셀 */
     text-align: center;
     background-color: #005891;
 }
@@ -25,6 +30,69 @@ a {
 .hero {
     width: 800px;
     height: 500px;
-    margin: 0 auto; /* 수평-중앙 배치 */
-    padding: 10px 0; /* 상, 하 50 픽셀 */
+    margin: 0 auto;
+    /* 수평-중앙 배치 */
+    padding: 10px 0;
+    /* 상, 하 50 픽셀 */
+}
+
+.hide {
+    display: none;
+    /*화면에 표시 안함 */
+}
+
+
+.movie {
+    width: 600px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.movie-title {
+    font-size: 22px;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase; /* 대문자 */
+    margin: 1rem 0 0 0; /*상->우->하->왼 순서 */
+}
+
+.movie-desc {
+    font-size: 16px;
+    color: #555555;
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+.social {
+    text-align: center; /* 그림 = 텍스트 */
+    margin: 3rem 1rem; /* (밖)여백 : 상하 2배, 좌우 기본값 */
+    background-color: #f3f3f3;
+}
+
+.contect {
+    text-align: center;
+}
+
+.cs-center {
+    font-size: 15px;
+    color: #005891;
+}
+
+.tel {
+    font-size: 30px;
+    color: #005891;
+    font-weight: bold;
+}
+
+.location {
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.hanul {
+    font-size: 13px;
+}
+
+.copyright {
+    font-size: 11px;
 }
