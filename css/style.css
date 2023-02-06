@@ -20,6 +20,13 @@ a {
     /* 상, 하 50 픽셀 */
 }
 
+.burger {
+    display: none;
+    position: absolute;
+    top: 80px;
+    right: 7%;
+}
+
 .menu {
     padding: 20px 0;
     /* 상, 하 50 픽셀 */
@@ -112,4 +119,45 @@ a {
 #line {
     margin: 2rem 0;
     border-color: #005891;
+}
+
+
+
+
+
+/* 반응형 웹을 위한 미디어쿼리 삽입(Media Query) */
+@media screen and (max-width: 430px) {
+    .burger {
+        display: block; /* block level element : 블럭요소 */
+    }
+   
+    .menu {
+        display: none; /* 표시하지 않음 */
+    }
+
+    .hero {
+        width: 100%;
+        height: 350px;
+    }
+
+    .hero img {
+        width: 100%; /* 가로 폭 : 가득 */
+        object-fit: cover; /* 오브젝트-맞춤 : 알맞게(비율에 근거해서) */
+    } 
+    
+    .movie {
+        width: 100%;
+    }
+    
+    .movie img {
+        width: 90%;
+        margin: 5%;
+        object-fit: cover;
+    }
+
+    .movie img:nth-of-type(2) {
+        /* 2번째 이미지는 숨김 ==> 피그마 설계를 반영 */
+        display: none;
+    }
+
 }

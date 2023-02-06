@@ -22,6 +22,9 @@
         <div class="logo">
             <img src="images/logo.png" alt="펩시골라">
         </div>
+        <div class="burger">
+            <img src="images/burger.png" alt="메뉴선택">
+        </div>
         <div class="menu">
             <a href="#">펩시소개</a>
             <a href="#">콜라종류</a>
@@ -55,6 +58,12 @@
         </div>
     </div>
     <!-- /.wrap -->
+    <script>
+        const burger = document.querySelector(".burger");
+        burger.addEventListener("click", function () {
+            alert("사이드 메뉴를 호출합니다");
+        });
+    </script>
 </body>
 
 </html>
