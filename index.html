@@ -1,69 +1,74 @@
 <!DOCTYPE html>
 <html lang="ko">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
-    <meta property="og:title" content="펩시 골라">
-<meta property="og:site_name" content="펩시 골라">
-<meta property="og:url" content="https://jmg5909.github.io/pepsi-gola-clone">
-<meta property="og:description" content="펩시 골라 아시아 지역 본부 - 광주 지사 웹사이트. 펩시골라 브랜드 홍보 ">
-<meta property="og:type" content="website">
-<meta property="og:image" content="https://jmg5909.github.io/pepsi-gola-clone/images/cover.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta property="og:title" content="펩시 골라" />
+    <meta property="og:site_name" content="펩시 골라" />
+    <meta
+      property="og:url"
+      content="https://jmg5909.github.io/pepsi-gola-clone"
+    />
+    <meta
+      property="og:description"
+      content="펩시 골라 아시아 지역 본부 - 광주 지사 웹사이트. 펩시골라 브랜드 홍보 "
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://jmg5909.github.io/pepsi-gola-clone/images/cover.png"
+    />
     <title>pepsi gola</title>
-</head>
+  </head>
 
-<body>
-    <h1 class="hide">펩시골라 광주</h1>
+  <body>
+    <h1 class="hide" id="title">펩시골라 광주</h1>
     <div class="wrap">
-        <div class="logo">
-            <img src="images/logo.png" alt="펩시골라">
-        </div>
-        <div class="burger">
-            <img src="images/burger.png" alt="메뉴선택">
-        </div>
-        <div class="menu">
-            <a href="#">펩시소개</a>
-            <a href="#">콜라종류</a>
-            <a href="#">갤러리</a>
-            <a href="#">고객센터</a>
-        </div>
-        <div class="hero">
-            <img src="images/visual.png" alt="새로운 맛 출시">
-        </div>
-        <div class="movie">
-            <h2 class="movie-title">shorts</h2>
-            <p class="movie-desc">광고영상</p>
-            <!-- 유튜브 영상 | 또는 커버 이미지-->
-            <img src="images/movie1.jpg" alt="펩시vs코카콜라">
-            <img src="images/movie2.jpg" alt="펩시vs코카콜라">
-        </div>
-        <div class="social">
-            <img src="images/kakao_icon.png" alt="sns">
-            <img src="images/naver_icon.png" alt="sns">
-            <img src="images/yellow_icon.png" alt="sns">
-            <img src="images/insta_icon.png" alt="sns">
-        </div>
-        <div class="contact">
-            <h2 class="cs-center">pepsi cs center</h2>
-            <p class="tel">1566-3082</p>
-        </div>
-        <hr id="line">
-        <div class="location">
-            <p class="hanul">광주광역시 서구 경열로 3, 펩시골라</p>
-            <p class="copyright">copyright(c) 2017. pepsi gola. all rights reserved</p>
-        </div>
+      <div class="logo">
+        <img src="images/logo.png" alt="펩시골라" />
+      </div>
+      <div class="opener">
+        <img src="images/burger.png" alt="메뉴선택" />
+      </div>
+      <div class="menu hide">
+        <button id="closer">&times;</button>
+        <a href="#">펩시소개</a>
+        <a href="#">콜라종류</a>
+        <a href="#">갤러리</a>
+        <a href="#">고객센터</a>
+      </div>
+      <div class="hero">
+        <img src="images/visual.png" alt="새로운 맛 출시" />
+      </div>
+      <div class="movie">
+        <h2 class="movie-title">shorts</h2>
+        <p class="movie-desc">광고영상</p>
+        <!-- 유튜브 영상 | 또는 커버 이미지-->
+        <img src="images/movie1.jpg" alt="펩시vs코카콜라" />
+        <img src="images/movie2.jpg" alt="펩시vs코카콜라" />
+      </div>
+      <div class="social">
+        <img src="images/kakao_icon.png" alt="sns" />
+        <img src="images/naver_icon.png" alt="sns" />
+        <img src="images/yellow_icon.png" alt="sns" />
+        <img src="images/insta_icon.png" alt="sns" />
+      </div>
+      <div class="contact">
+        <h2 class="cs-center">pepsi cs center</h2>
+        <p class="tel">1566-3082</p>
+      </div>
+      <hr id="line" />
+      <div class="location">
+        <p class="hanul">광주광역시 서구 경열로 3, 펩시골라</p>
+        <p class="copyright">
+          copyright(c) 2017. pepsi gola. all rights reserved
+        </p>
+      </div>
     </div>
     <!-- /.wrap -->
-    <script>
-        const burger = document.querySelector(".burger");
-        burger.addEventListener("click", function () {
-            alert("사이드 메뉴를 호출합니다");
-        });
-    </script>
-</body>
-
+    <script src="script/main.js"></script>
+  </body>
 </html>
