@@ -309,4 +309,14 @@ a {
     font-style: italic;
     font-weight: 900;
   }
+
+  .lookbook {
+  width: 100%;
+  object-fit: cover;
+  }
+
+  .lookbook_small2 {
+    width: 100%;
+    object-fit: cover;
+    }
 }
