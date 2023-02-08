@@ -185,6 +185,7 @@ a {
   }
 
   .menu {
+    display: none;
     position: fixed;
     width: 76.74418604651163%;
     right: 0;
