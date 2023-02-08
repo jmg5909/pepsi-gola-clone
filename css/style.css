@@ -54,7 +54,14 @@ a {
   font-size: 0;
 }
 
-.movie-title {
+.brand-body {
+  width: 300px;
+  margin: 0 auto;
+  font-style: italic;
+  font-weight:900;
+}
+
+.page-title {
   font-size: 22px;
   font-weight: bolder;
   text-align: center;
@@ -62,12 +69,22 @@ a {
   margin: 1rem 0 0 0; /*상->우->하->왼 순서 */
 }
 
-.movie-desc {
+.page-desc {
   font-size: 16px;
   color: #555555;
   text-align: center;
   margin: 0 0 1rem 0;
 }
+
+.tip {
+  text-align: center;
+}
+
+.about_size1 {
+  font-size: 80%;
+}
+
+
 
 .social {
   text-align: center; /* 그림 = 텍스트 */
