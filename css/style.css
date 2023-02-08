@@ -12,6 +12,10 @@ a {
   margin: 10px;
 }
 
+#closer {
+  display: none;
+}
+
 .logo {
   width: 100px;
   margin: 0 auto;
@@ -54,11 +58,40 @@ a {
   font-size: 0;
 }
 
+/* .body1, .body3, .body5 img {
+  float: left;
+  margin: 0 1rem 0 0;
+}
+
+.body2, .body4 img {
+  float: right;
+  margin: 0 0 0 5rem;
+} */
+
 .brand-body {
   width: 300px;
   margin: 0 auto;
   font-style: italic;
-  font-weight:900;
+  font-weight: 900;
+}
+
+.brand-body img {
+  width: 100%;
+  object-fit: contain;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+
+.brand-body p {
+  width: 100%;
+  object-fit: contain;
+  text-align: center;
+  color: #005891;
+}
+
+.about_size1 {
+  font-size: 80%;
 }
 
 .page-title {
@@ -80,13 +113,8 @@ a {
   text-align: center;
 }
 
-.about_size1 {
-  font-size: 80%;
-}
-
-
-
 .social {
+  clear: both;
   text-align: center; /* 그림 = 텍스트 */
   margin: 4rem 0;
   background-color: #f3f3f3;
@@ -136,6 +164,18 @@ a {
   border-color: #005891;
 }
 
+#closer {
+  display: none;
+  font-size: 3rem;
+  background-color: transparent;
+  color: white;
+  border: 0;
+  margin: 0 0 10rem 0;
+  position: relative;
+  left: 16.9rem;
+  top: 3rem;
+}
+
 /* =========================================== */
 
 /* 반응형 웹을 위한 미디어쿼리 삽입(Media Query) */
@@ -162,15 +202,7 @@ a {
   }
 
   #closer {
-    font-size: 3rem;
-    background-color: transparent;
-    color: white;
-    border: 0;
     display: block;
-    margin: 0 0 10rem 0;
-    position: relative;
-    left: 16.9rem;
-    top: 3rem;
   }
 
   .hero {
@@ -196,5 +228,11 @@ a {
   .movie img:nth-of-type(2) {
     /* 2번째 이미지는 숨김 ==> 피그마 설계를 반영 */
     display: none;
+  }
+
+  .brand-body {
+    width: 300px;
+    font-style: italic;
+    font-weight: 900;
   }
 }
