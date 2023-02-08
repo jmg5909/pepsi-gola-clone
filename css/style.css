@@ -155,6 +155,27 @@ a {
   margin-bottom: 5px;
 }
 
+.categoryimg {
+  width: 100%;
+  object-fit: contain;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  font-size: 400px;
+}
+
+.categoryimg p {
+  width: 100%;
+  object-fit: contain;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  text-shadow: 4px 4px 4px rgb(0, 101, 195);
+  text-transform: uppercase;
+}
+
 .lookbook_small {
   width: 100%;
   object-fit: contain;
@@ -317,18 +338,18 @@ a {
     font-weight: 900;
   }
 
-  .lookbook {
+  .lookbook img, .lookbook_small img, .lookbook_small2 img {
     width: 100%;
     object-fit: cover;
   }
 
-  .lookbook_small {
-    width: 100%;
-    object-fit: cover;
+  .category1, .category2, .category3 {
+    font-size: 250px;
   }
 
-  .lookbook_small2 {
-    width: 100%;
+  .category1 img, .category2 img, .category3 img{
+    width: 400px;
+    height: 200px;
     object-fit: cover;
   }
 }
